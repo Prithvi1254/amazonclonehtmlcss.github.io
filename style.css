@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 113px;
+
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    margin: 1px;
+
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.one {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.two {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+}
+
+/*  */
+
+.search-nav {
+    display: flex;
+    align-items: center;
+
+
+}
+
+#selectnav {
+    height: 35px;
+    width: 50px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: gray;
+    text-align: center;
+}
+
+#check:hover {
+    cursor: pointer;
+}
+
+#searchamazon {
+    height: 29px;
+    width: 624px;
+    font-size: 1rem;
+
+}
+
+.searchlogo {
+    height: 29px;
+    width: 50px;
+    border: 2px solid transparent;
+    background-color: #febd68;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#searchamazon:active {
+    border-bottom: 1px solid orange;
+}
+
+/*  */
+/*  */
+.language {
+    display: flex;
+    width: 45px;
+    height: 50px;
+}
+
+.language img {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+}
+
+#selectlanguage {
+    height: 10px;
+    width: 10px;
+    margin-top: 30px;
+}
+
+.spaner {
+    margin-top: 20px;
+    font-size: small;
+}
+
+/*  */
+/*  */
+
+span {
+    font-size: 0.7rem;
+
+}
+
+.paraaccount {
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+/*  */
+/*  */
+.cart {
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: 700;
+    align-items: end;
+}
+
+.cart i {
+    font-size: 30px;
+}
+
+/* End of Navbar */
+.panel {
+
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    margin: 0 8px;
+    font-size: 0.8rem;
+
+}
+
+.panel-all {
+    margin: 0 10px;
+}
+
+.panel-ops {
+    width: 93%;
+}
+
+/*  */
+.hero-section {
+    background-image: url("https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.heromsg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+}
+
+.heromsg a {
+    color: #007185;
+}
+
+/*  */
+.shopping {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F9DEC9;
+}
+
+.box {
+    height: 400px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: white;
+}
+
+.boxonerow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxonerow img {
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.box1 h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rowone {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.boxtworow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxtworow img {
+    margin-top: 20px;
+    width: 45%;
+}
+
+.rowtwo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.box1 a {
+    color: #007185;
+    padding-left: 10px;
+    font-size: 0.85rem;
+}
+
+.boxonerow:hover {
+    cursor: pointer;
+}
+
+.boxtworow:hover {
+    cursor: pointer;
+}
+
+/* Box2 */
+.box2img {
+    margin: 10px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2022/img/Amazon_Exports/XCM_CUTTLE_1469244_2584128_379x304_1X_en_US._SY304_CB609318944_.jpg");
+
+    height: 300px;
+}
+
+.box2 h2 {
+    margin: 10px;
+}
+
+.box2 a {
+    color: #007185;
+    font-size: 0.85rem;
+    margin-left: 10px;
+}
+
+/*  */
+.box3 h2 {
+    margin: 10px;
+}
+
+.box3img {
+    /* margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 10px; */
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg");
+
+    height: 300px;
+}
+
+.box3 a {
+    color: #007185;
+    font-size: 0.85rem;
+    margin-left: 10px;
+}
+
+/*  */
+.box4img {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2022/img/Amazon_Exports/XCM_CUTTLE_1469391_2584745_379x304_1X_en_US._SY304_CB609304299_.jpg);
+    height: 300px;
+    margin: 10px;
+}
+
+.box4 h2 {
+    margin: 8px;
+}
+
+.box4 a {
+    color: #007185;
+    font-size: 0.85rem;
+    margin-left: 10px;
+}
+
+.box4img:hover {
+    cursor: pointer;
+}
+
+.box3img:hover {
+    cursor: pointer;
+}
+
+.box2img:hover {
+    cursor: pointer;
+}
+
+.box4a:hover {
+    cursor: pointer;
+}
+
+/* Footer down */
+footer {
+    margin-top: 15px;
+}
+
+.foot1 {
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+    font-size: 0.85rem;
+
+}
+
+.foot3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid transparent;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+/* Responsive */
+/* Tablet */
+@media screen and (max-width:1024px) and (min-width:760px) {
+    #searchamazon {
+        height: 29px;
+        width: 200px;
+        font-size: 1rem;
+    }
+
+    .nav-logo {
+        height: 50px;
+        width: 50px;
+
+    }
+
+    .logo {
+        background-image: url("amazon_logo.png");
+        transform: scale(0.5, 0.5);
+        background-size: cover;
+        height: 50px;
+        width: 100%;
+        margin: 1px;
+
+    }
+
+    span {
+        font-size: 0.65rem;
+    }
+
+    .paraaccount {
+        font-size: 0.65rem;
+    }
+
+    #cartlogo {
+        transform: scale(0.6, 0.6);
+    }
+
+    h2 {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:425px) and (min-width:325px) {
+    .navbar {
+
+        height: 300px;
+        width: 100vw;
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #searchamazon {
+        height: 15px;
+        width: 100px;
+        font-size: 0.6rem;
+    }
+
+    #magone {
+        transform: scale(0.5, 0.5);
+    }
+
+    .searchlogo {
+        height: 14px;
+        width: 25px;
+        border: 1px solid transparent;
+        background-color: #febd68;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px 3px 3px 0px;
+    }
+
+    #selectnav {
+        height: 18px;
+        width: 25px;
+        border-radius: 3px 0px 0px 3px;
+        background-color: gray;
+        text-align: center;
+    }
+
+    .one,
+    .two {
+        font-size: 0.6rem;
+    }
+
+    .language {
+        transform: scale(0.6, 0.6);
+    }
+
+    .shopping {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #F9DEC9;
+    }
+
+    .box {
+        height: 300px;
+        width: 100vw;
+    }
+
+    .box1 {
+        height: 200px;
+        width: 100vw;
+    }
+
+    .box img {
+        transform: scale(0.5, 0.5);
+    }
+
+    .boxonerow {
+        display: flex;
+    }
+
+    .boxonerow img {
+        width: 10%;
+        margin-bottom: 4px;
+    }
+
+    .rowone {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .boxtworow {
+        display: flex;
+
+    }
+
+    .boxtworow img {
+        margin-top: 4px;
+        width: 10%;
+    }
+
+    .rowtwo {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .box1 a {
+        color: #007185;
+        padding-left: 10px;
+        font-size: 0.85rem;
+    }
+
+    /* Heromsg */
+    .hero-section {
+        background-image: url("https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg");
+        background-size: cover;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .heromsg {
+        background-color: white;
+        color: black;
+        height: 40px;
+        display: flex;
+        margin-bottom: 25px;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.65rem;
+        width: 80%;
+    }
+
+    /* Box2 */
+    .box2img {
+        margin: 10px;
+        background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2022/img/Amazon_Exports/XCM_CUTTLE_1469244_2584128_379x304_1X_en_US._SY304_CB609318944_.jpg");
+
+        height: 200px;
+    }
+
+    .box3img {
+        background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg");
+
+        height: 200px;
+    }
+
+    .box4img {
+        background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2022/img/Amazon_Exports/XCM_CUTTLE_1469391_2584745_379x304_1X_en_US._SY304_CB609304299_.jpg);
+        height: 200px;
+        margin: 10px;
+    }
+
+    .foot2 a {
+        font-size: 0.7rem;
+    }
+
+    .foot2 p {
+        font-size: 0.7rem;
+    }
+}
