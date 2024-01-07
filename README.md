@@ -1,4 +1,4 @@
-Features are Responsive design mimicking the Amazon homepage layout.
+A Responsive design mimicking the Amazon homepage layout.
 Navigation bar with various categories and links.
 Product carousel showcasing featured items.
 Search bar and user authentication section.
